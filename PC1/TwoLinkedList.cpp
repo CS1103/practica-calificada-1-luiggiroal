@@ -136,14 +136,26 @@ bool TwoLinkedList::is_merge(){
 	}
 }
 
-// std::string TwoLinkedList::getlist(int num){
+std::string TwoLinkedList::getlist(int num){
+	std::vector<std::string> v1;
 
-// }
-
-Node* TwoLinkedList::search(int num){
-	
-	if (!head)
-	{
-		
+	while(head1 && tail1->value != num) {
+			    
+	}
+	if(num == 1) {
+	}
+	else if(num == 2) {
+		/* code */
+	}
+	else if(num == 0) {
+		/* code */
 	}
 }
+
+// Node* TwoLinkedList::search(int num){
+
+// 	if (!head)
+// 	{
+		
+// 	}
+// }
